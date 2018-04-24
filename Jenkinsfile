@@ -26,7 +26,6 @@ pipeline {
                 }
                 build job: 'Deploy-to-Prod'
             }
-        }
         post {
             success {
                 echo 'Code deployed to production.'
